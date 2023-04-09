@@ -10,7 +10,7 @@ const Navbar = () => {
   const [activeMenuItem, setActiveMenuItem] = useState("home");
 
   const [click, setClick] = useState(false);
-  const handleClick = (event) => setClick(event.currentTarget);
+  const handleClick = () => setClick(!click);
   const closeMenu = () => setClick(false);
 
   const isSmallScreen = useMediaQuery("(max-width:600px)");
