@@ -10,7 +10,7 @@ const Navbar = () => {
   const [activeMenuItem, setActiveMenuItem] = useState("home");
 
   const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
+  const handleClick = (event) => setClick(event.currentTarget);
   const closeMenu = () => setClick(false);
 
   const isSmallScreen = useMediaQuery("(max-width:600px)");
@@ -38,7 +38,6 @@ const Navbar = () => {
           position: "fixed",
           top: 0,
         }}
-        className="fixed navbar"
       >
         <Toolbar >
           
