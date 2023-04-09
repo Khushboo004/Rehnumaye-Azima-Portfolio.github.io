@@ -47,7 +47,7 @@ const Navbar = () => {
           </Typography>
           {isSmallScreen ? (
            <IconButton edge="end" color="inherit" aria-label="menu" onClick={handleClick}>
-           <MenuIcon style={{ marginRight: '46px' }} />
+           <MenuIcon style={{ marginRight: '55px' }} />
          </IconButton>
          
           ) : (
