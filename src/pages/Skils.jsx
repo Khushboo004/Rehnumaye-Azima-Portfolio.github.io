@@ -18,7 +18,7 @@ const Skils = () => {
       <Grid container spacing={1} className="py-14">
         <Grid xs={2}></Grid>
         <Grid item xs={8}>
-          <Grid container spacing={4}>
+          <Grid container spacing={2}>
             {" "}
             {/* add the CSS class for centering */}
             <Grid item md={3} xs={6}>
