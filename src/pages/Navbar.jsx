@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const [click, setClick] = useState(false);
   const handleClick = (event) => setClick(event.currentTarget);
-  const closeMenu = () => setClick(null);
+  const closeMenu = () => setClick(false);
 
   const isSmallScreen = useMediaQuery("(max-width:600px)");
 
@@ -40,14 +40,16 @@ const Navbar = () => {
         }}
         className="fixed navbar"
       >
-        <Toolbar>
+        <Toolbar >
+          
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <img src={Logo} width={"100"} height={"100"} alt="" />
           </Typography>
           {isSmallScreen ? (
-            <IconButton edge="end" color="inherit" aria-label="menu" onClick={handleClick}>
-              <MenuIcon />
-            </IconButton>
+           <IconButton edge="end" color="inherit" aria-label="menu" onClick={handleClick}>
+           <MenuIcon style={{ marginRight: '46px' }} />
+         </IconButton>
+         
           ) : (
             <ul className="nav-menu" style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
             <li className={`nav-item ${isMenuItemActive("home") ? activeMenuItemClass : ""} ${hoverMenuItemClass}`} style={{ marginRight: "1rem" }}>

@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 
 const HeroSection = () => {
   return (
+    <div>
     <div id="intro" className="pt-10">
       <Grid container spacing={2} className="hero">
         <Grid item xs={12}>
@@ -56,6 +57,7 @@ const HeroSection = () => {
           </Grid>
         </Grid>
       </Grid>
+    </div>
     </div>
   );
 };
