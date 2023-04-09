@@ -98,7 +98,8 @@ const Navbar = () => {
             <MenuItem onClick={closeMenu}><a href="#about">About</a></MenuItem>
             <MenuItem onClick={closeMenu}><a href="#skills">Skills</a></MenuItem>
             <MenuItem onClick={closeMenu}><a href="#academicProject">Academic Project</a></MenuItem>
-            <MenuItem onClick={closeMenu}><a href="#skills">Demo</a></MenuItem>
+            <MenuItem onClick={closeMenu}><a href="#language">Language</a></MenuItem>
+            <MenuItem onClick={closeMenu}><a href="#contact">Contact</a></MenuItem>
           </Menu>
         )}
       </AppBar>
