@@ -11,7 +11,7 @@ import Mail from "../assets/icons8-mail-94.png";
 const AboutMe = () => {
   const name = "Rehnumaye Azima";
   const birthday = "10 Aug, 2002";
-  const ongoing = "";
+  const ongoing = "Lithan Academy (Roehampton University)  ";
   const phone = "+8801858707175";
   const email = "rakhushboo75@gmail.com";
   return (
