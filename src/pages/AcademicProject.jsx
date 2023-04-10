@@ -49,6 +49,13 @@ import AJPThree from "../assets/projects/ABC Job Portal LTD/abcjpl04_orig.png";
 import AJPFour from "../assets/projects/ABC Job Portal LTD/abcjpl05_orig.png";
 import AJPFive from "../assets/projects/ABC Job Portal LTD/abcjpl06_orig.png";
 
+import MMOne from "../assets/projects/merrymeal/mm01.png";
+import MMTwo from "../assets/projects/merrymeal/mm02.png";
+import MMThree from "../assets/projects/merrymeal/mm03.png";
+import MMFour from "../assets/projects/merrymeal/mm04.png";
+import MMFive from "../assets/projects/merrymeal/mm05.png";
+import MMSix from "../assets/projects/merrymeal/mm06.png";
+import MMSeven from "../assets/projects/merrymeal/mm07.png";
 const AcademicProject = () => {
   return (
     <div
@@ -147,6 +154,26 @@ const AcademicProject = () => {
           skils={"Spring framework, JSP, bootstrap and XML"}
           fe={"Source Code"}
           fesc={"https://github.com/Khushboo004/ABC-Car-Pte-Ltd"}
+        />
+
+        <Myproject
+          src1={MMOne}
+          src2={MMTwo}
+          src3={MMThree}
+          src4={MMFour}
+          src5={MMFive}
+          src6={MMSix}
+          src7={MMSeven}
+          projectName={"Merry Meal (Group Project)"}
+          desc={
+            "This project is an e-commerce project in which user can order foods. Each role of user will posses unique dashboard. "
+          }
+          skils={"Spring framework, JSP, bootstrap and XML"}
+          fe={"Front-end"}
+          fesc={"https://github.com/Khushboo004/Merry-Meal"}
+          bksc={"https://github.com/Khushboo004/Merry-Meal-BK"}
+          bk={"Back-end Code"}
+          demo={"https://khushboo004.github.io/Merry-Meal/"}
         />
       </Container>
     </div>
