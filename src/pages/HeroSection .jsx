@@ -31,7 +31,7 @@ const HeroSection = () => {
               <img className="border rounded-md" src={profileImage} alt="" />
               {/* update the image source */}
             </Grid>
-            <Grid item md={4} xs={12} className="text-white text-center">
+            <Grid item md={4} xs={12} className="text-white lg:text-left text-center">
               <h3 className="font-weight text-white text-1xl md:text-3xl mb-3 ">
                 Hello, I'm Rehnumaye Azima
               </h3>
