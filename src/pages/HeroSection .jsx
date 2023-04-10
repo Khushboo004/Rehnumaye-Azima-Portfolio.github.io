@@ -54,7 +54,7 @@ const HeroSection = () => {
                   {" "}
                   a Web Developer in Spring Boot, Java, and React JS etc
                 </h3>
-                <h3 className="font-weight text-white text-1xl lg:text-4xl md:text-3xl font-bold mb-3">
+                <h3 className="font-weight text-white text-xl lg:text-2xl font-bold mb-3">
                   {" "}
                   Welcome to my portfolio!
                 </h3>
