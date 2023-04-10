@@ -168,7 +168,7 @@ const AcademicProject = () => {
           desc={
             "This project is an e-commerce project in which user can order foods. Each role of user will posses unique dashboard. "
           }
-          skils={"Spring framework, JSP, bootstrap and XML"}
+          skils={"Spring Boot, React Js, Tailwind CSS, Material UI"}
           fe={"Front-end"}
           fesc={"https://github.com/Khushboo004/Merry-Meal"}
           bksc={"https://github.com/Khushboo004/Merry-Meal-BK"}
