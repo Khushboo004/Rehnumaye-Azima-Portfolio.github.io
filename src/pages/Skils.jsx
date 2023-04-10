@@ -40,7 +40,7 @@ const Skils = () => {
               <Learn lang="HTML" per="95%" img={"https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"} />
             </Grid>
             <Grid item md={3} xs={6}>
-              <Learn lang="MongoDb " per="80%" img={"https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"} />
+              <Learn lang="MongoDB " per="80%" img={"https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"} />
             </Grid>
             <Grid item md={3} xs={6}>
               <Learn lang="JavaScript" per="80%" img={"https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"}/>
