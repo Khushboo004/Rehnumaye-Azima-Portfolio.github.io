@@ -1,31 +1,52 @@
-import { Box } from '@mui/material'
-import React from 'react'
+import { Box } from "@mui/material";
+import React, { useState } from "react";
 
 const Learn = (props) => {
+  const [hover, setHover] = useState(false); // state to track hover state
+
+  const handleMouseEnter = () => {
+    setHover(true); // set hover state to true on mouse enter
+  };
+
+  const handleMouseLeave = () => {
+    setHover(false); // set hover state to false on mouse leave
+  };
+
   return (
     <div>
-        <Box
+      <Box
         style={{
           backgroundSize: "cover",
           height: "150px",
           width: "100%",
-          border: "3px solid black", // set the border width and style
-          borderColor: "red green blue yellow", // set the border color(s)
-          borderRadius: "8px", // add border radius for rounded corners
+          border: "3px solid black", 
+          borderColor: "red green blue yellow", 
+          borderRadius: "8px", 
           display: "flex",
-          flexDirection: "column", // update to stack child elements vertically
+          flexDirection: "column",
           justifyContent: "center",
-          alignItems: "center", // center child elements horizontally
-          background:
-            "linear-gradient(to bottom, #000000, #444444)", // change the gradient colors to black and dark gray
-          boxShadow: "0px 2px 6px rgba(0, 0, 0, 0.1)", // add a subtle box shadow
+          alignItems: "center", 
+          background: "linear-gradient(to bottom, #000000, #444444)", 
+          boxShadow: "0px 2px 6px rgba(0, 0, 0, 0.1)", 
           fontSize: "20px",
           fontWeight: "bold",
-          color: "white", // set the text color
+          color: "white", 
+          transform: hover ? "scale(1.05)" : "scale(1)", 
+          transition: "all 0.3s ease", 
+          cursor: "pointer", // add cursor pointer for hover effect
+          boxShadow: hover
+            ? "0px 4px 8px rgba(0, 0, 0, 0.2)"
+            : "0px 2px 6px rgba(0, 0, 0, 0.1)", // update box shadow based on hover state
         }}
+        onMouseEnter={handleMouseEnter} // handle mouse enter event
+        onMouseLeave={handleMouseLeave} // handle mouse leave event
       >
-        <a href="https://www.java.com" target="_blank" rel="noreferrer" className="block">
-         
+        <a
+          href="https://www.java.com"
+          target="_blank"
+          rel="noreferrer"
+          className="block"
+        >
           <img
             src={props.img}
             alt="java"
@@ -38,7 +59,7 @@ const Learn = (props) => {
         <p className="text-xl text-orange-500">{props.per}</p>
       </Box>
     </div>
-  )
-}
+  );
+};
 
-export default Learn
+export default Learn;
