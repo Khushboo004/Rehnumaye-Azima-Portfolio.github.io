@@ -89,7 +89,7 @@ export default function Myproject(props) {
                     {/* <p>{props.desc}</p> */}
                     <Typography>
                       <p>
-                        <p>{props.desc}</p>
+                        <p className="text-[15px]">{props.desc}</p>
                       </p>
                     </Typography>
                   </Box>
@@ -103,7 +103,7 @@ export default function Myproject(props) {
                     {/* <p>{props.desc}</p> */}
                     <Typography component="div">
                       <h1 className="font-bold text-1xl text-green-700 underline underline-offset-3">
-                        Skilled Covered :
+                        Skill Covered :
                       </h1>
                     </Typography>
                     <Typography component="div">
