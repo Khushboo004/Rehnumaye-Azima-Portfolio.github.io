@@ -114,6 +114,7 @@ export default function Myproject(props) {
                     <Button size="small" variant="contained">
                       <a
                         href={props.fesc}
+                        target="_blank"
                         className="flex justify-center items-center"
                       >
                         {" "}
@@ -125,6 +126,7 @@ export default function Myproject(props) {
                       <Button size="small" variant="contained" color="info">
                         <a
                           href={props.bksc}
+                          target="_blank"
                           className="flex justify-center items-center"
                         >
                           <img src={github} width="40" height="40" alt="" />{" "}
@@ -141,7 +143,7 @@ export default function Myproject(props) {
                         color="success"
                         sx={{ padding: "12px" }} // add padding to the button
                       >
-                        <a href={props.demo}>Demo</a>
+                        <a href={props.demo}  target="_blank">Demo</a>
                       </Button>
                     ) : (
                       ""

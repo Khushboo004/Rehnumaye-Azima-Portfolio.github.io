@@ -54,13 +54,13 @@ const HeroSection = () => {
                   {" "}
                   a Web Developer in Spring Boot, Java, and React JS etc
                 </h3>
-                <h3 className="font-weight text-white text-xl lg:text-2xl font-bold mb-3">
+                <h3 className=" text-white text-xl lg:text-2xl  mb-3">
                   {" "}
                   Welcome to my portfolio!
                 </h3>
                 <Box className="my-4">
                   <Button variant="contained">
-                    <a href="https://docs.google.com/document/d/1_sM7eLEwSfKudUvx-GSuBg6H3P5RBDau/edit?usp=share_link&ouid=107227359048577794300&rtpof=true&sd=true">
+                    <a href="https://docs.google.com/document/d/1_sM7eLEwSfKudUvx-GSuBg6H3P5RBDau/edit?usp=share_link&ouid=107227359048577794300&rtpof=true&sd=true"  target="_blank">
                       MY RESUME
                     </a>
                   </Button>
