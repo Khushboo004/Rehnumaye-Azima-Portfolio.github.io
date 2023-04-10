@@ -49,6 +49,7 @@ export default function Myproject(props) {
       <Grid container spacing={2}>
         <Grid item xs={12} md={12}>
           <Card
+           className="card-hover"
             sx={{ display: "flex" }}
             style={{
               background:

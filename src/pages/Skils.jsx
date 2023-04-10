@@ -14,7 +14,7 @@ import Learn from "../components/Learn";
 const Skils = () => {
   return (
     <div className="pt-9" id="skills">
-      <h1 className="text-center text-4xl font-bold text-white py-12 pt underline underline-offset-8  "> Skils</h1>
+      <h1 className="text-center text-4xl font-bold text-white py-12 pt underline underline-offset-8  "> Skills</h1>
       <Grid container spacing={1} className="py-14">
         <Grid xs={2}></Grid>
         <Grid item xs={8}>
