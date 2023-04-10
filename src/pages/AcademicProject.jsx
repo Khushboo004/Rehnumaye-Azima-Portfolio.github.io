@@ -172,7 +172,7 @@ const AcademicProject = () => {
           fe={"Front-end"}
           fesc={"https://github.com/Khushboo004/Merry-Meal"}
           bksc={"https://github.com/Khushboo004/Merry-Meal-BK"}
-          bk={"Back-end Code"}
+          bk={"Back-end "}
           demo={"https://khushboo004.github.io/Merry-Meal/"}
         />
       </Container>
