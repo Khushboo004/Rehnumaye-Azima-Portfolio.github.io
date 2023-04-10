@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rehnumaye-Azima-Portfolio.github.io/static/css/main.48855dd4.css",
-    "main.js": "/Rehnumaye-Azima-Portfolio.github.io/static/js/main.5cec1a85.js",
+    "main.js": "/Rehnumaye-Azima-Portfolio.github.io/static/js/main.432cedf0.js",
     "static/media/jumpstart.png": "/Rehnumaye-Azima-Portfolio.github.io/static/media/jumpstart.54a8e50bba6d25f9407b.png",
     "static/media/03.png": "/Rehnumaye-Azima-Portfolio.github.io/static/media/03.6d86ad0c9e18ab959f21.png",
     "static/media/06.png": "/Rehnumaye-Azima-Portfolio.github.io/static/media/06.29c596fc73dabf3b6bcf.png",
@@ -52,10 +52,10 @@
     "static/media/icons8-birthday-cake.gif": "/Rehnumaye-Azima-Portfolio.github.io/static/media/icons8-birthday-cake.8083bbbc5a6aa681d468.gif",
     "index.html": "/Rehnumaye-Azima-Portfolio.github.io/index.html",
     "main.48855dd4.css.map": "/Rehnumaye-Azima-Portfolio.github.io/static/css/main.48855dd4.css.map",
-    "main.5cec1a85.js.map": "/Rehnumaye-Azima-Portfolio.github.io/static/js/main.5cec1a85.js.map"
+    "main.432cedf0.js.map": "/Rehnumaye-Azima-Portfolio.github.io/static/js/main.432cedf0.js.map"
   },
   "entrypoints": [
     "static/css/main.48855dd4.css",
-    "static/js/main.5cec1a85.js"
+    "static/js/main.432cedf0.js"
   ]
 }
