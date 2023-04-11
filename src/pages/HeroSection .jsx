@@ -33,7 +33,7 @@ const HeroSection = () => {
               </Grid>
               <Grid
                 item
-                md={4}
+                md={5}
                 xs={12}
                 className="text-white lg:text-left text-center"
               >
@@ -58,12 +58,21 @@ const HeroSection = () => {
                   {" "}
                   Welcome to my portfolio!
                 </h3>
-                <Box className="my-4">
-                  <Button variant="contained">
-                    <a href="https://docs.google.com/document/d/1_sM7eLEwSfKudUvx-GSuBg6H3P5RBDau/edit?usp=share_link&ouid=107227359048577794300&rtpof=true&sd=true"  target="_blank">
+                <Box className="my-4 flex justify-center lg:justify-start items-center">
+                 <Box className="mr-2">
+                 <Button variant="contained" color="info">
+                    <a href="https://drive.google.com/file/d/1VDVzrI8FhABbIQ7-pJ5SeHtLx_bQwABI/view?usp=share_link"  target="_blank">
                       MY RESUME
                     </a>
                   </Button>
+                 </Box>
+                 <Box className="ml-2">
+                 <Button variant="contained" color="success">
+                    <a href="https://www.youtube.com/watch?v=lpHZ1VHy1do"  target="_blank">
+                      Video Introduction
+                    </a>
+                  </Button>
+                 </Box>
                 </Box>
               </Grid>
               <Grid item xs={12} sm={2}>
