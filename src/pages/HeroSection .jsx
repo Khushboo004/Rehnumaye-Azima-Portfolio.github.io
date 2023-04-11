@@ -61,7 +61,7 @@ const HeroSection = () => {
                 <Box className="my-4 flex justify-center lg:justify-start items-center">
                  <Box className="mr-2">
                  <Button variant="contained" color="info">
-                    <a href="https://drive.google.com/file/d/1VDVzrI8FhABbIQ7-pJ5SeHtLx_bQwABI/view?usp=share_link"  target="_blank">
+                    <a href="https://drive.google.com/file/d/1MK3yKqC9nvrlq2pOGaSWJ8A0G4PERsH5/view?usp=share_link"  target="_blank">
                       MY RESUME
                     </a>
                   </Button>
