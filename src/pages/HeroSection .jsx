@@ -68,7 +68,7 @@ const HeroSection = () => {
                  </Box>
                  <Box className="ml-2">
                  <Button variant="contained" color="success">
-                    <a href="https://www.youtube.com/watch?v=lpHZ1VHy1do"  target="_blank">
+                    <a href="https://www.youtube.com/watch?v=lpHZ1VHy1sdo"  target="_blank">
                       Video Introduction
                     </a>
                   </Button>
