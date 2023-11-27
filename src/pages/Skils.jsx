@@ -22,16 +22,16 @@ const Skils = () => {
             {" "}
             {/* add the CSS class for centering */}
             <Grid item md={3} xs={6}>
-              <Learn lang="Java" per="85%" img={"https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"}/>
+              <Learn lang="Java" per="70%" img={"https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"}/>
             </Grid>
             <Grid item md={3} xs={6}>
-              <Learn lang="Spring Boot" per="90%" img={"https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg"} />
+              <Learn lang="Spring Boot" per="80%" img={"https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg"} />
             </Grid>
             <Grid item md={3} xs={6}>
               <Learn lang="MySQL" per="85%" img={"https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"} />
             </Grid>
             <Grid item md={3} xs={6}>
-              <Learn lang="Node JS" per="60%" img={"https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"} />
+              <Learn lang="PHP" per="85%" img={"https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"} />
             </Grid>
             <Grid item md={3} xs={6}>
               <Learn lang="React" per="85%" img={"https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"} />
@@ -40,10 +40,10 @@ const Skils = () => {
               <Learn lang="HTML" per="95%" img={"https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"} />
             </Grid>
             <Grid item md={3} xs={6}>
-              <Learn lang="MongoDB " per="80%" img={"https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"} />
+              <Learn lang="MongoDB " per="70%" img={"https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"} />
             </Grid>
             <Grid item md={3} xs={6}>
-              <Learn lang="JavaScript" per="80%" img={"https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"}/>
+              <Learn lang="JavaScript" per="88%" img={"https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"}/>
             </Grid>
           </Grid>
         </Grid>
